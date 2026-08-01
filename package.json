@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "NEXT_DISABLE_TURBOPACK=1 next build",
     "start": "next start",
     "lint": "eslint"
-  },
+  }
+
   "dependencies": {
     "cloudinary": "^2.10.0",
     "clsx": "^2.1.1",
